@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
       tech: 'React, TypeScript, Figma, Tailwind CSS',
       short: 'Project manager for a 4-person team; reservation system supporting 8 sports with real-time availability.',
       details: `Served as project manager for a 4-person team, defined product requirements, and led usability improvements that reduced reservation completion time by 53% (85 → 40s). Features: real-time availability, reservations, check-in, open-court joining, cancellations.`,
-      links: { github: 'https://github.com/dhanush-ven/uci-arc', demo: '#' }
+      links: { github: 'https://github.com/vdvenna/ARC', demo: '#' }
     },
     {
       id: 'sars-align',
