@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dhanush Venna — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">Dhanush Venna's Portfolio</div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <p class="location">IRVINE, CA</p>
+        <h1>Dhanush Venna <span>(he/him)</span></h1>
+        <p class="tagline">Computer Science @ UC Irvine | Problem Solving, AI &amp; Technical Solutions | Bridging Technical and Non-Technical Teams</p>
+        <p class="ctas"><a class="btn" href="#contact">Contact Me</a> <a class="outline" href="resume.pdf" download="Dhanush_Venna_Resume_2026.pdf">Download Resume</a></p>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About Me</h2>
+      <div class="intro-copy">
+        <p>I enjoy solving problems—but more specifically, I enjoy understanding them.</p>
+        <p>I’m a Computer Science student at UC Irvine, and throughout my projects I’ve found that the part I enjoy most is figuring out why a problem exists, understanding what people actually need, and working toward a solution that makes sense both technically and practically.</p>
+        <p>Whether I’m building a full-stack application, working with machine learning, analyzing data, or managing a project, I enjoy breaking down complex problems, exploring different solutions, and explaining my thinking to others. One of my favorite parts of working on my UCI ARC project was presenting our solution to peers and stakeholders and translating between high-level requirements and low-level implementation details.</p>
+        <p>I’m looking for opportunities where I can continue sharpening these skills, learn from challenging problems, and work with people to turn ideas and needs into practical solutions.</p>
+      </div>
+    </section>
+
+    <section id="resume" class="resume container">
+      <h2>Resume</h2>
+      <p class="resume-meta">Last updated: 2026</p>
+      <div class="resume-actions">
+        <button id="resume-toggle" class="btn" type="button" aria-expanded="false" aria-controls="resume-preview">Show Preview</button>
+        <a class="outline" href="resume.pdf" download="Dhanush_Venna_Resume_2026.pdf">Download Resume</a>
+      </div>
+      <div id="resume-preview" class="resume-preview" hidden>
+        <iframe src="resume.pdf" title="Dhanush Venna resume preview"></iframe>
+      </div>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h2>Projects</h2>
+      <div id="projects-grid" class="grid"></div>
+    </section>
+
+    <section id="experience" class="experience container">
+      <h2>Experience</h2>
+      <h3>PC Building & Reselling (Independent)</h3>
+      <ul>
+        <li>Diagnosed and resolved hardware, software, driver, and OS issues for custom desktop PCs.</li>
+        <li>Built, configured, and validated systems; communicated technical information to customers.</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="skills container">
+      <h2>Skills</h2>
+      <div class="skill-categories">
+        <div>
+          <h3>Languages</h3>
+          <p>Python, Java, C++, JavaScript, TypeScript, SQL, HTML/CSS</p>
+        </div>
+        <div>
+          <h3>Frameworks & Libraries</h3>
+          <p>React, Flask, Tailwind CSS, PyTorch, scikit-learn, NumPy, Pandas, OpenCV</p>
+        </div>
+        <div>
+          <h3>Tools & Concepts</h3>
+          <p>Git, GitHub, VS Code, Linux, DSA, System Design, Full-Stack Development</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="container">
+      <h2>Certifications</h2>
+      <p>Google AI Essentials, OpenAI Applied AI Foundations, Anthropic AI Fluency, IBM Project Management Fundamentals</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:dhanushevenna2@gmail.com">dhanushevenna2@gmail.com</a> · Phone: 562-613-8219</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/dhanush-venna" target="_blank">linkedin.com/in/dhanush-venna</a> · GitHub: <a href="https://github.com/dhanush-ven" target="_blank">github.com/dhanush-ven</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© Dhanush Venna — Built with HTML, CSS, JS</div>
+  </footer>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close" aria-label="Close">✕</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
